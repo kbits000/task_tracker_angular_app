@@ -14,5 +14,5 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 })
 export class AppComponent {
   title = 'Task Tracker';
-  faCoffee = faCoffee;
+  // faCoffee = faCoffee;
 }
