@@ -4,11 +4,12 @@ import { TASKS } from '../../mock-tasks';
 import { NgFor } from '@angular/common';
 import { TaskItemComponent } from '../task-item/task-item.component';
 import { TaskService } from '../../services/task.service';
+import { AddTaskComponent } from '../add-task/add-task.component';
 
 @Component({
   selector: 'app-tasks',
   standalone: true,
-  imports: [NgFor, TaskItemComponent],
+  imports: [NgFor, TaskItemComponent, AddTaskComponent],
   templateUrl: './tasks.component.html',
   styleUrl: './tasks.component.css'
 })
@@ -25,6 +26,12 @@ export class TasksComponent implements OnInit {
   tasks: Task[] = [];
 
   deleteTask(task: Task) {
-    console.log("fd");
+    this.taskService.deleteTask(task).subscribe(() => (this.tasks = this.tasks.filter(t => t.id !== task.id) ));
+
+  }
+
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe();
   }
 }
