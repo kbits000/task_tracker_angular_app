@@ -18,7 +18,7 @@ export class TaskItemComponent {
   @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter<Task>();
 
   onDelete(task?: Task){  // This should not be optional. I could not fix it.
-    console.log(this.task);
+    // console.log(this.task);
     this.onDeleteTask.emit(this.task);
   }
   
