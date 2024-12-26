@@ -15,6 +15,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. -->
 
+## Screenshots
+
+<div align="center"> 
+  <img src="screenshots/screenshot_1.png" alt="screenshot #1" />
+  <img src="screenshots/screenshot_2.png" alt="screenshot #2" />
+  <img src="screenshots/screenshot_3.png" alt="screenshot #3" />
+  <img src="screenshots/screenshot_4.png" alt="screenshot #4" />
+  <img src="screenshots/screenshot_5.png" alt="screenshot #5" />
+</div>
+
 ## Usage
 
 ### Install dependencies

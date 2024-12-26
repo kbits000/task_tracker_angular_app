@@ -17,6 +17,12 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "id": "2f46",
+      "text": "Go to Gym",
+      "day": "2025/1/1",
+      "reminder": true
     }
   ]
 }
