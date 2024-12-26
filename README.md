@@ -15,6 +15,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. -->
 
+# Table of Contents
+
+- [Screenshots](#screenshots)
+- [Installation Usage](#installation-and-usage)
+  * [Install dependencies](#install-dependencies)
+  * [Run Angular server (http://localhost:4200)](#run-angular-server-httplocalhost4200)
+  * [Run the JSON server (http://localhost:5000)](#run-the-json-server-httplocalhost5000)
+- [To build for production](#to-build-for-production)
+- [Further help](#further-help)
+- [Acknowledgments](#acknowledgments)
+
+
 ## Screenshots
 
 <div align="center"> 
@@ -25,7 +37,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
   <img src="screenshots/screenshot_5.png" alt="screenshot #5" />
 </div>
 
-## Usage
+## Installation and Usage
 
 ### Install dependencies
 
